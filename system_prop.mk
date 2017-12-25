@@ -45,11 +45,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	net.tcp.default_init_rwnd=60
 
-# Load omx blobs
+# UI fluidityenchantements
 PRODUCT_PROPERTY_OVERRIDES += \
-	media.stagefright.legacyencoder=1 \
-	media.stagefright.less-secure=1 \
 	sys.use_fifo_ui=1
+#	media.stagefright.legacyencoder=1 \
+#	media.stagefright.less-secure=1 \
 
 # sdcardfs
 PRODUCT_PROPERTY_OVERRIDES += \
